@@ -1,0 +1,23 @@
+body {
+    background-color: rgb;
+}
+div.section1 {
+    background-color: yellow;
+    color: black;
+}
+div.section2 {
+    background-color: black;
+    color: blue;
+}
+.section1 h1{
+    text-align: center;
+    background-color:red;
+    color: aquamarine;
+
+}
+.section2  h1{
+    text-align: center;
+    background-color:orange;
+    color: bisque;
+
+
