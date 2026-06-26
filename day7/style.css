@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://images.pexels.com/photos/36548959/pexels-photo-36548959.jpeg);
+  background-size: cover;
+}
+.form-area {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: aliceblue;
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  background-color: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+form > h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+form > input {
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.submit-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: hotpink;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}

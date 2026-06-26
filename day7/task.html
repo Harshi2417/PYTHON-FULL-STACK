@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .section1 {
+        background-color: blue;
+        color: blueviolet;
+        height: 200px;
+      }
+      .section2 {
+        background-color: lightgreen;
+        height: 400px;
+        width: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .child1 {
+        background-color: yellow;
+        height: 80%;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 5px;
+        align-items: center;
+      }
+      .child2 {
+        background-color: pink;
+        height: 80%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+      }
+      .child1 > .card1 {
+        background-color: orange;
+        height: 80%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+      }
+      .child1 > .card2 {
+        background-color: violet;
+        height: 80%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+      .child1 > .card3 {
+        background-color: white;
+        height: 80%;
+        width: 30%;
+      }
+      .child1 > .card1 > .a {
+        background-color: yellow;
+        height: 95%;
+        width: 45%;
+      }
+      .child1 > .card1 > .b {
+        background-color: yellow;
+        height: 95%;
+        width: 45%;
+      }
+      .child2 > .card1 {
+        background-color: aqua;
+        height: 80%;
+        width: 70%;
+      }
+      .child2 > .card1 > .c1 {
+        background-color: red;
+        height: 50%;
+        width: 80%;
+      }
+      .child2 > .card1 > .c2 {
+        background-color: black;
+        height: 50%;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section1"></div>
+    <div class="section2">
+      <div class="child1">
+        child1
+        <div class="card1">
+          <div class="a"></div>
+          <div class="b"></div>
+        </div>
+        <div class="card2">
+          <div class="c">
+            <div class="a1"></div>
+            <div class="b2"></div>
+            <div class="c3"></div>
+          </div>
+          <div class="d">
+            <div class="d1"></div>
+            <div class="e2"></div>
+            <div class="f3"></div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="car1"></div>
+          <div class="car2"></div>
+          <div class="car3"></div>
+        </div>
+      </div>
+      <div class="child2">
+        <div class="card1">
+          <div class="c1"></div>
+          <div class="c2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
