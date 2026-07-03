@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Layout</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Section 1 */
+      .section1 {
+        height: 200px;
+        background: royalblue;
+      }
+
+      /* Section 2 */
+      .section2 {
+        width: 900px;
+        height: 450px;
+        margin: 30px auto;
+        background: lightgreen;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      /* Left Side */
+      .child1 {
+        width: 68%;
+        height: 85%;
+        background: yellow;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      /* Right Side */
+      .child2 {
+        width: 25%;
+        height: 85%;
+        background: pink;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Card 1 */
+      .child1 .card1 {
+        width: 30%;
+        height: 80%;
+        background: orange;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .card1 .a,
+      .card1 .b {
+        width: 42%;
+        height: 90%;
+        background: gold;
+      }
+
+      /* Card 2 */
+      .child1 .card2 {
+        width: 30%;
+        height: 80%;
+        background: violet;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .c,
+      .d {
+        width: 42%;
+        height: 90%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .a1,
+      .b2,
+      .c3,
+      .d1,
+      .e2,
+      .f3 {
+        height: 28%;
+        background: white;
+        border: 1px solid #333;
+      }
+
+      /* Card 3 */
+      .child1 .card3 {
+        width: 30%;
+        height: 80%;
+        background: white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .car1,
+      .car2,
+      .car3 {
+        width: 80%;
+        height: 25%;
+        background: steelblue;
+      }
+
+      /* Right Card */
+      .child2 .card1 {
+        width: 75%;
+        height: 85%;
+        background: aqua;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .c1 {
+        width: 80%;
+        height: 42%;
+        background: red;
+      }
+
+      .c2 {
+        width: 80%;
+        height: 42%;
+        background: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="section1"></div>
+
+    <div class="section2">
+      <div class="child1">
+        <div class="card1">
+          <div class="a"></div>
+          <div class="b"></div>
+        </div>
+
+        <div class="card2">
+          <div class="c">
+            <div class="a1"></div>
+            <div class="b2"></div>
+            <div class="c3"></div>
+          </div>
+
+          <div class="d">
+            <div class="d1"></div>
+            <div class="e2"></div>
+            <div class="f3"></div>
+          </div>
+        </div>
+
+        <div class="card3">
+          <div class="car1"></div>
+          <div class="car2"></div>
+          <div class="car3"></div>
+        </div>
+      </div>
+
+      <div class="child2">
+        <div class="card1">
+          <div class="c1"></div>
+          <div class="c2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

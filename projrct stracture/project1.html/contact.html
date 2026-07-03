@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .contact {
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .box h1 {
+        font-size: 25px;
+        margin-bottom: 25px;
+      }
+
+      .box p {
+        color: gray;
+        font-size: 20px;
+      }
+
+      input {
+        width: 240px;
+        height: 60px;
+        padding: 12px;
+        border: 1px solid gray;
+        border-radius: 5px;
+      }
+      .box1 ::placeholder {
+        font-size: 20px;
+        color: gray;
+      }
+      .box1 button {
+        background: darkorange;
+        color: aliceblue;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 8px;
+        font-size: 25px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contact">
+      <div class="box">
+        <h1>Call Our Support</h1>
+        <p>24 / 7 Support Line :📞 +1(21) 234 557 4567</p>
+      </div>
+      <div class="box">
+        <h1>Our Location</h1>
+        <p>Shipper, #2214 Honey street, NY - 62617</p>
+      </div>
+      <div class="box">
+        <h1>Our Newsletter</h1>
+        <div class="box1">
+          <input type="email" placeholder="Email Address" />
+          <button type="submit">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

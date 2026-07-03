@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      img {
+        width: 150px;
+        height: auto;
+        animation-name: startCar;
+        animation-duration: 8s;
+        animation-iteration-count: 6;
+        animation-direction: normal;
+        animation-direction: alternate;
+      }
+      @keyframes startCar {
+        from {
+          transform: translatex(0px) scale(0);
+        }
+        to {
+          transform: translatex(600px) scale(2);
+        }
+      }
+      #bike {
+        animation: startBike;
+        animation-duration: 9s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 6;
+        animation-direction: alternate;
+      }
+      @keyframes startBike {
+        from {
+          transform: translatex(0px);
+        }
+        to {
+          transform: translatex(600px);
+        }
+      }
+
+      #cycle {
+        animation: startcycle;
+        animation-duration: 7s;
+        animation-timing-function: ease;
+        animation-iteration-count: 8;
+      }
+      @keyframes startcycle {
+        from {
+          transform: translatex(0px);
+        }
+        to {
+          transform: translatex(600px);
+        }
+      }
+      #eddulabandi {
+        animation: starteddulabandi;
+        animation-duration: 6s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 10;
+      }
+      @keyframes starteddulabandi {
+        from {
+          transform: translatex(0px);
+        }
+        to {
+          transform: translatex(600px);
+        }
+      }
+      #train {
+        animation: starttrain;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+      }
+      @keyframes starttrain {
+        from {
+          transform: translatex(0px) rotate(0deg);
+        }
+        to {
+          transform: translatex(600px) rotate(120deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img id="car" src="car.png" alt="error loading image" />
+    <br />
+    <img id="cycle" src="cycle.png" alt="error loading image" />
+    <br />
+    <img id="bike" src="bike.png" alt="error loading image" />
+    <br />
+    <img id="train" src=" train.png" alt=" error loading image" />
+    <br />
+    <img id="eddulabandi" src="eddulabandi.png" alt="error loading image" />
+    <br />
+  </body>
+</html>

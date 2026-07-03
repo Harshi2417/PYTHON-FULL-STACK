@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      body{
+        background-color: chartreuse;
+        height: 6000px;
+      }
+      .hero-section{
+        height: 100vh;
+        width: 100vw;
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .hero-section>.image-part{
+         background-image: url(https://up.yimg.com/ib/th/id/OIP.Gion1v3N4JlDlL1-elS9CQHaDt?pid=Api&rs=1&c=1&qlt=95&w=220&h=110);
+         background-repeat: no-repeat;
+         background-size: contain;
+         height: 80%;
+         width: 80%;
+         font-size: 80px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 50px;
+      }
+      .hero-section>.image-part>.layer{
+        background-color: black;
+        opacity: 0.4;
+        position: absolute;
+        
+      }
+      .cards{
+        height: 100vh;
+        width: 100vw;
+        background-color:aqua ;
+      }
+
+    </style>
+</head>
+<body>
+ <div class="nav">
+     <div class="logo">
+        <h1>LOGO</h1>
+      </div>
+      <div class="quicklinks">
+        <li>Home</li>
+        <li>About</li>
+        <li>Career</li>
+        <li>Help</li>
+        <li>More</li>
+ </div>
+ <div class="hero-section">
+    <div class="image-part">
+        <div class="layer">
+        <h1>Hospatel</h1>
+        </div>
+    </div>
+ </div>
+ <div class="cards"></div>
+
+</body>
+</html>
